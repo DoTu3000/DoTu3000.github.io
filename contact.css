@@ -1,0 +1,114 @@
+body{background-color:white;
+	font-family:'Open Sans', sans-serif ;
+		margin-top: 50px;
+	    }
+	 
+	    p{ color:black;
+	    font-size:30px;
+	    }
+.demo h2{
+	position: absolute;
+	padding-left: 30px; 
+	color: black;
+	margin: inherit
+}
+.menu {
+	text-align: right; margin-right: 50px ;
+}
+	    #menu ul li{
+	    margin:0;
+	    padding:0;
+	    text-align:center;
+	    display:inline;    }
+	 
+	    #menu li a{
+	    font-size:15px;
+	    font-weight:bold;
+	    color: black;
+	    padding: 0 15px;
+	    text-decoration:none;
+	 
+	    }
+	 
+#menu nav a:hover{
+	border: 2px solid aqua;
+	padding: 10px 10px;
+	border-width: 2px; 
+	transition-duration: 0.5s;
+	background: aqua;
+	border-radius: 5px}
+
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    overflow: hidden;
+    background-color: #ededed;
+}
+.to {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: minmax(100px,auto);
+}
+ 
+.form {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 470px;
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+ 
+label {
+    margin-left: -126px;
+    display: block;
+    font-weight: lighter;
+ 
+}
+input{
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+}
+input[type="text"] {
+    padding: 5px;
+    width: 70%;
+}
+ 
+input#submit {
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+input#submit:hover{
+ 
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+}
+
